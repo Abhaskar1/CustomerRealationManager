@@ -35,7 +35,7 @@ public class TestDbServlet extends HttpServlet {
 			out.print("Success");
 			con.close();
 		}
-		catch(Exception e){
+		catch(Exception e) {
 			e.printStackTrace();
 			
 		}
